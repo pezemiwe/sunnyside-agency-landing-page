@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    background: url("./images/desktop/image-header.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.bar {
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.burger {
+    display: none;
+}
+.end {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    font-family: "Barlow";
+    color: hsl(0, 0%, 100%);
+}
+.about {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 14px;
+
+}
+.about:hover {
+    background-color: hsl(198, 100%, 76%);
+    cursor: pointer;
+    border-radius: 50px;
+    text-transform: uppercase;
+    
+}
+.mid {
+    font-family: "Fraunces";
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.we {
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    margin: 6% 0px;
+    text-align: center;
+}
+.slide {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    overflow: hidden;
+}
+.slide img {
+    height: 100%;
+}
+.mobile {
+    display: none;
+}
+.txt1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 150px 140px;
+    color: hsl(212, 27%, 19%);
+    /* margin-top: 22%; */
+    background: hsl(5, 100%, 98%)
+}
+.head {
+    font-size: 40px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.subhead {
+    font-family: "Barlow";
+    margin-bottom: 40px;
+}
+.link {
+    font-family: "Fraunces";
+    text-transform: uppercase;
+    font-size: 13px;
+    width: 23%;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+.link:hover{
+    cursor: pointer;
+}
+.link:active {
+    background: hsl(7, 99%, 70%);
+}
+#apple {
+    position: relative;
+}
+#orange {
+    position: relative;
+}
+.pictext {
+    position: absolute;
+    content: "";
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 8% 25%;
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+}
+.pictext1 {
+    position: absolute;
+    content: "";
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 8% 25%;
+    text-align: center;
+    color: hsl(198, 62%, 26%);
+}
+.heading {
+    font-family: "Fraunces";
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.subheading {
+    font-family: "Barlow";
+
+}
+.pink {
+    background: hsl(5, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 10%;
+    height: 80vh;
+    
+}
+.header {
+    margin-bottom: 40px;
+    font-family: "Fraunces";
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: hsl(232, 10%, 55%);
+}
+.testimonies {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.avatar {
+    margin-bottom: 60px;
+}
+.emily {
+    width: 60px;
+    border-radius: 50px;
+}
+.one {
+    width: 28%;
+    margin: 2%;
+    padding: 0%;
+}
+
+.trust {
+    margin-bottom: 60px;
+    font-size: 17px;
+    font-family: "Barlow";
+    font-weight: 600;
+    color: hsl(212, 27%, 19%);
+}
+
+.bold {
+    font-family: "Fraunces";
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: hsl(212, 27%, 19%);
+}
+.light {
+    font-family: "Barlow";
+    color: hsl(210, 4%, 67%);
+
+}
+.grid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+
+}
+
+.grid .item {
+    overflow: hidden;
+    height: 100%;
+}
+
+.grid .item img {
+    width: 100%;
+    height: 100%;
+}
+footer {
+    background: hsl(168, 65%, 64%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.sunny {
+    margin-bottom: 20px;
+}
+.three {
+    display: flex;
+    margin-bottom: 50px;
+    color: hsl(167, 52%, 45%);
+    font-size: 16px;
+    
+}
+.ico {
+    display: flex;
+}
+.icon {
+    margin: 0 10px;
+}
+.icons {
+    fill: hsl(167, 40%, 24%);
+}
+.icons:hover {
+    cursor: pointer;
+    fill: hsl(0, 0%, 100%);
+}
+.pro {
+    margin: 0 10px;
+}
+.pro:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 800px) {
+.first {
+    background: url("./images/mobile/image-header.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.slide {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    overflow: hidden;
+    width: 100%;
+}
+.slide img {
+    height: 100%;
+    width: 100%;
+}
+.mobile{
+    display: flex;
+    width: 100%;
+}
+.desktop {
+    display: none;
+}
+.burger {
+    display: flex;
+    position: relative;
+}
+.burger:hover {
+    cursor: pointer;
+}
+.menu {
+    display: none;
+    position: absolute;
+    content: "";
+    left: -40rem;
+    top: 7rem;
+    height: 600px;
+    width: 41rem;
+    background: hsl(5, 100%, 98%);
+    padding: 40%;
+}
+.check {
+
+    font-size: 50px;
+    text-align: center;
+    margin: 10% 0%;
+    font-family: "Barlow";
+    color: hsl(232, 10%, 55%);
+    border-radius: 50px;
+}
+.check:active {
+    background: hsl(51, 100%, 49%);
+    cursor: pointer;
+    
+}
+.triangle {
+    display: none;
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 48px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 50px solid hsl(5, 100%, 98%);
+    left: -2rem;
+    top: 4rem;
+}
+.end {
+    display: none;
+}
+.burger.visible .menu {
+    display: block;
+}
+.burger.visible .triangle {
+    display: block;
+}
+.txt1 {
+    display: flex;
+    padding: 30% 100px;
+    margin: 0%;
+    height: 750px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.pictext{
+    position: absolute;
+    padding: 8%;
+}
+.pictext1 {
+    position: absolute;
+    padding: 8%;
+}
+.heading {
+    font-size: 50px;
+}
+.subheading {
+    font-size: 30px;
+}
+.head {
+    font-size: 50px;
+}
+.subhead {
+    font-size: 30px;
+}
+.link {
+    font-size: 15px;
+
+}
+
+#apple1 {
+    position: relative;
+}
+#orange1 {
+    position: relative;
+}
+.pink {
+    height: 100vh;
+}
+.testimonies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.one {
+    width: 100%;
+}
+.trust {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.avatar {
+    margin: 20px 0px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.we {
+    font-size: 80px;
+    margin: 20% 0;
+}
+}
+
+@media screen and (width: 1024px) {
+.first {
+background: url("./images/mobile/image-header.jpg");
+background-size: 100%;
+background-position: bottom;
+background-repeat: no-repeat;
+}
+
+}
+
+@media screen and (width: 1440px) {
+.first {
+background: url("./images/mobile/image-header.jpg");
+background-size: 100%;
+background-position: bottom;
+background-repeat: no-repeat;
+}
+.slide {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    overflow: hidden;
+}
+.slide img {
+    height: 100%;
+}
+}
